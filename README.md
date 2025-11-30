@@ -41,9 +41,7 @@ Commit mysealedsecret.yaml to the Git repository.
 
 ### Automation with GitOps
 
-```
 Integrate this process into your GitOps workflows. Whenever you update your sealed secrets in Git, your CI/CD pipeline can automatically apply them to your cluster.
-```
 
 2. External Secrets
 
@@ -75,15 +73,11 @@ apiVersion: external-secrets.io/v1beta1
 
 ### Applying External Secrets
 
-```
 Commit the ExternalSecret resource to your Git repository. The External Secrets Operator will automatically create or update the Kubernetes secret in your cluster based on the external source.
-```
 
 ### Integration with GitOps
 
-```
 Incorporate External Secrets into your GitOps pipelines. Changes to the ExternalSecret definitions in your Git repo trigger the operator to sync the secrets, ensuring your cluster’s secrets are always up-to-date.
-```
 
 ## Policy Engine for policy-as-code practices (Integrating Kyverno and OPA)
 
