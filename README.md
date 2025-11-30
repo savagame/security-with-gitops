@@ -139,12 +139,8 @@ When combined with the GitOps approach, it opens up new possibilities that trans
 
 ### KubeClarity
 
-```
 By integrating KubeClarity within a GitOps framework, an organization can significantly enhance its security and compliance posture, ensuring that its Kubernetes clusters are fortified against evolving threats.
-```
 
 ### Falco
 
-```
 Falco operates at the system level (Figure 13.5), monitoring the underlying Linux kernel functionality, or more precisely, the system-level activities of container orchestration platforms. It utilizes Linux kernel capabilities, particularly extended BPF (Berkeley Packet Filter) or traditional system calls (syscalls) monitoring through a kernel module, to observe and analyze system-wide events in real time. Falco can capture and evaluate system calls from applications running inside containers, identifying unusual or undesirable behavior.
-```
